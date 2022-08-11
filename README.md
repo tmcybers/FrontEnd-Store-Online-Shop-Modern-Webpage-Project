@@ -1,7 +1,7 @@
 # FrontEnd-Store-Online-Shop-Modern-Webpage-2022-Project
-FrontEnd Store E-Commerce Modern-Webpage 2022 100%Git
 
-# Online Shop Modern Website 2022 Project
+
+# Online Shop Modern Website 2022 Project 100 % Git
 
 ![Captura de pantalla de 2022-08-11 09-56-02](https://user-images.githubusercontent.com/97669969/184089668-90803812-890b-4344-966e-22020c981b97.png)
 
