@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FrontEnd Store</title>
-    <link rel="preload" href="css/normalize.css" as="style" />
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preload" href="css/styles.css" as="style" />
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="index.html">
-        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
-      </a>
-    </header>
 
-    <nav class="navegacion">
-      <a class="navegacion__enlace navegacion__enlace--activo" href="index.html"
-        >Tienda</a
-      >
-      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrontEnd Store</title>
+  <link rel="preload" href="css/normalize.css" as="style" />
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <main class="contenedor">
-      <h1>Producto</h1>
-    </main>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+    </a>
+  </header>
 
-    <footer class="footer">
-      <p class="footer__texto">
-        Front End Store.Todos Los Derechos Reservados.Created and Styled
-        @TMCyber 2022.
-      </p>
-    </footer>
-  </body>
+  <nav class="navegacion">
+    <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>ReactJS</h1>
+
+    <div class="camisa">
+      <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto" />
+
+      <div class="camisa__contenido">
+        <p>Morbi sodales arcu id pulvinar sagittis. Nulla facilisi. Suspendisse dictum porta sem, id malesuada sapien
+          scelerisque ut.Etiam non augue eu lorem convallis vestibulum eget sit amet erat.</p>
+
+        <form class="formulario">
+          <select class="formulario__campo">
+            <option disabled selected>--->Selecciona Talla--</option>
+            <option>Chica</option>
+            <option>Mediana</option>
+            <option>Grande</option>
+          </select>
+          <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" />
+          <input class="formulario__submit" type="submit" value="Agregar al Carrito" />
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__texto">
+      Front End Store.Todos Los Derechos Reservados.Created and Styled
+      @TMCyber 2022.
+    </p>
+  </footer>
+</body>
+
 </html>

@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FrontEnd Store</title>
-    <link rel="preload" href="css/normalize.css" as="style" />
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preload" href="css/styles.css" as="style" />
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="index.html">
-        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
-      </a>
-    </header>
 
-    <nav class="navegacion">
-      <a class="navegacion__enlace" href="index.html">Tienda</a>
-      <a class="navegacion__enlace  navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrontEnd Store</title>
+  <link rel="preload" href="css/normalize.css" as="style" />
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <main class="contenedor">
-      <h1>Nosotros</h1>
-    </main>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+    </a>
+  </header>
 
-    <footer class="footer">
-      <p class="footer__texto">
-        Front End Store.Todos Los Derechos Reservados.Created and Styled
-        @TMCyber 2022.
-      </p>
-    </footer>
-  </body>
+  <nav class="navegacion">
+    <a class="navegacion__enlace" href="index.html">Tienda</a>
+    <a class="navegacion__enlace  navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>Nosotros</h1>
+
+    <div class="nosotros">
+      <div class="nosotros__contenido">
+        <p>Cras ante lectus, aliquet ut justo et, pharetra rutrum arcu. Maecenas placerat feugiat elit, vitae
+          pellentesque
+          justo fermentum vitae. Cras ac urna lobortis, ornare metus sit amet, placerat tortor. Maecenas vehicula
+          vehicula
+          ipsum a commodo. Vivamus risus lorem, commodo at efficitur a,
+          feugiat eu mi. Vivamus imperdiet sem nisi, vel suscipit velit pellentesque id.</p>
+
+        <p>Vivamus eleifend bibendum risus nec lacinia. Praesent feugiat lorem in tincidunt ultricies. Vestibulum ante
+          ipsum prir sit amet at lacus. Cras scelerisque est mauris, ac
+          volutpat arcu luctus tincidunt. Pellentesque nec blandit felis. Sed sed mattis enim. Aliquam in neque erat.
+        </p>
+
+      </div>
+      <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+    </div>
+  </main>
+
+  <section class="contenedor comprar">
+    <h2 class="comprar__titulo">Porque Comprar con nosotros?</h2>
+
+    <div class="bloques">
+      <div class="bloque">
+        <img class="bloque__imagen"  src="img/icono_1.png" alt="porque comprar">
+        <h3 class="bloque__titulo">El Mejor Precio</h3>
+        <p> Justo fermentum vitae, cras ac urna lobortis, ornare metus sit amet, placerat tortor. Maecenas vehicula
+          vehicula
+          ipsum a commodo. Vivamus risus lorem, commodo at efficitur.</p>
+      </div> <!--.bloque-->
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+        <h3 class="bloque__titulo">Para Devs</h3>
+        <p> Justo fermentum vitae, cras ac urna lobortis, ornare metus sit amet, placerat tortor. Maecenas vehicula
+          vehicula
+          ipsum a commodo. Vivamus risus lorem, commodo at efficitur.</p>
+      </div> <!--.bloque-->
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+        <h3 class="bloque__titulo">Envio Gratis</h3>
+        <p> Justo fermentum vitae, cras ac urna lobortis, ornare metus sit amet, placerat tortor. Maecenas vehicula
+          vehicula
+          ipsum a commodo. Vivamus risus lorem, commodo at efficitur.</p>
+      </div> <!--.bloque-->
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+        <h3 class="bloque__titulo">La Mejor Calidad</h3>
+        <p> Justo fermentum vitae, cras ac urna lobortis, ornare metus sit amet, placerat tortor. Maecenas vehicula
+          vehicula
+          ipsum a commodo. Vivamus risus lorem, commodo at efficitur.</p>
+      </div> <!--.bloque-->
+    </div> <!--.bloques-->
+
+
+
+
+
+  </section>
+
+  <footer class="footer">
+    <p class="footer__texto">
+      Front End Store.Todos Los Derechos Reservados.Created and Styled
+      @TMCyber 2022.
+    </p>
+  </footer>
+</body>
+
 </html>
